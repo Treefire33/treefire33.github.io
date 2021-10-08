@@ -13,13 +13,13 @@
 }
 .Nav li {
     float: left;
-    color: cornsilk;
     /* Or you can use display: inline; */
 }
 /* Define the block styling for the links */
 .Nav li a {
     display: inline-block;
     text-align: center;
+    color: antiquewhite;
     padding: 14px 16px;
 }
 /* This is optional, however if you want to display the active link differently apply a background to it */
