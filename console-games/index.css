@@ -13,6 +13,7 @@
 }
 .Nav li {
     float: left;
+    color: cornsilk;
     /* Or you can use display: inline; */
 }
 /* Define the block styling for the links */
