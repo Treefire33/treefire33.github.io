@@ -1,11 +1,4 @@
-@keyframes IntroIcon
+.Icon
 {
-    from{text-align: left; opacity: 0;}
-    to{text-align: center; opacity: 1;}
-}
-
-#Icon
-{
-    animation-name: IntroIcon;
-    animation-duration: 2s;
+    align-self: center;
 }
