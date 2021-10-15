@@ -1,6 +1,12 @@
-img
-{
+img{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+h1{
+    text-align: center;
+}
+a{
+    text-align: left;
+    font-size: large;
 }
