@@ -11,3 +11,10 @@ a{
     text-align: left;
     font-size: large;
 }
+iframe
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    size: 50%;
+}
