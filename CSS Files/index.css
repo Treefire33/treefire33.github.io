@@ -7,9 +7,10 @@ img{
 h1{
     text-align: center;
 }
-a{
-    text-align: left;
-    font-size: large;
+nav{
+    text-align: center;
+    word-spacing: 50px;
+    background-color: forestgreen;
 }
 iframe
 {
