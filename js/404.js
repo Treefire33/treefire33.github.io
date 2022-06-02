@@ -1,7 +1,14 @@
+var step = [false, false, false, false, false, false];
+
+$("#tT").click(function(){step[0] = true;});
+$("#tO").click(function(){step[1] = true;});
+$("#tM").click(function(){step[2] = true;});
+$("#aA").click(function(){step[3] = true;});
+$("#aD").click(function(){step[4] = true;});
+$("#aAM").click(function(){step[5] = true;});
+
 var timesClicked = 0;
-document.getElementById("b").onclick = ClickThingie;
-function ClickThingie()
-{
+$("#b").click(function(){
   timesClicked+=1 
   if(timesClicked==100)
   {
@@ -12,13 +19,4 @@ function ClickThingie()
     alert("You found the secret!");
     window.location = "https://firetreegames.net/puzzle/index.html";
   }
-}
-
-var step = [false, false, false, false, false, false];
-
-$("#tT").click(function(){step[0] = true;});
-$("#tO").click(function(){step[1] = true;});
-$("#tM").click(function(){step[2] = true;});
-$("#aA").click(function(){step[3] = true;});
-$("#aD").click(function(){step[4] = true;});
-$("#aAM").click(function(){step[5] = true;});
+});
