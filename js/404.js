@@ -1,11 +1,11 @@
-var step = [false, false, false, false, false, false];
+var step = 0;
 
-$("#tT").click(function(){step[0] = true;});
-$("#tO").click(function(){step[1] = true;});
-$("#tM").click(function(){step[2] = true;});
-$("#aA").click(function(){step[3] = true;});
-$("#aD").click(function(){step[4] = true;});
-$("#aAM").click(function(){step[5] = true;});
+$("#tT").click(function(){step += 1;});
+$("#tO").click(function(){step += 1;});
+$("#tM").click(function(){step += 1;});
+$("#aA").click(function(){step += 1;});
+$("#aD").click(function(){step += 1;});
+$("#aAM").click(function(){step += 1;});
 
 var timesClicked = 0;
 $("#b").click(function(){
@@ -14,8 +14,9 @@ $("#b").click(function(){
   {
     document.body.innerHTML='<p>Suprise! you get nothing!</p><p style="font-size: 12px">(You\'re still on a 404, go to the<a href="https://firetreegames.net">Home page</a>)</p>';
   }
-  if(step[0] == true && step[1] == true && step[2] == true && step[3] == true && step[4] == true && step[5] == true)
+  if(step >= 5)
   {
+    alert("Clicked Me");
     alert("You found the secret!");
     window.location = "https://firetreegames.net/puzzle/index.html";
   }
