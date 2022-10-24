@@ -26,6 +26,12 @@ nav#ftC{
     background-color:darkolivegreen;
 }
 
+/* Games Page */
+.imgSection{
+  text-align: center;
+  display: inline-block;
+}
+
 
 /* NavBar  */
 .topnav {
